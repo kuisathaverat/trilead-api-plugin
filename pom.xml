@@ -34,6 +34,11 @@
             <name>Michael Clarke</name>
             <email>michael.m.clarke@gmail.com</email>
         </developer>
+        <developer>
+            <id>kuisathaverat</id>
+            <name>Ivan Fernandez</name>
+            <email>kuisathaverat@gmail.com</email>
+        </developer>
     </developers>
 
     <scm>
