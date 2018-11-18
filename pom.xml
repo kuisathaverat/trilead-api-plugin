@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>2.12</version>
+        <version>3.19</version>
     </parent>
 
     <artifactId>trilead-api</artifactId>
@@ -47,6 +47,10 @@
         <url>https://github.com/jenkinsci/trilead-api-plugin</url>
     </scm>
 
+    <properties>
+      <jenkins.version>2.89.4</jenkins.version>
+      <java.level>8</java.level>
+    </properties>
 
     <repositories>
         <repository>
@@ -66,8 +70,7 @@
         <dependency>
             <groupId>org.jenkins-ci</groupId>
             <artifactId>trilead-ssh2</artifactId>
-            <version>build217-jenkins-8</version>
-            <scope>provided</scope><!-- use the dependency in core for now -->
+            <version>build-217-jenkins-14</version>
         </dependency>
         <dependency>
             <groupId>org.kohsuke</groupId>
@@ -92,9 +95,9 @@
                 <configuration>
                     <!-- once all plugins that use Classloader based checks of Trilead classes depend on this plugin,
                     we can enable the following line -->
-                    <!--<maskClasses>com.trilead.ssh2</maskClasses>-->
+                    <!-- <maskClasses>com.trilead.ssh2</maskClasses> -->
                     <!-- once all plugins that use trilead depend on this plugin, we can enable the following line -->
-                    <!--<globalMaskClasses>com.trilead.ssh2</globalMaskClasses>-->
+                    <!-- <globalMaskClasses>com.trilead.ssh2</globalMaskClasses> -->
                 </configuration>
             </plugin>
         </plugins>
