@@ -50,7 +50,7 @@
     <properties>
       <revision>1.0.4</revision>
       <changelist>-SNAPSHOT</changelist>
-      <jenkins.version>2.182-rc28414.f23b93a6d5e9</jenkins.version>
+      <jenkins.version>2.184</jenkins.version>
       <java.level>8</java.level>
     </properties>
 
