@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>trilead-api</artifactId>
-    <version>1.0.8</version>
+    <version>${revision}${changelist}</version>
     <packaging>hpi</packaging>
 
 
@@ -44,11 +44,11 @@
         <connection>scm:git:git://github.com/jenkinsci/trilead-api-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:jenkinsci/trilead-api-plugin.git</developerConnection>
         <url>https://github.com/jenkinsci/trilead-api-plugin</url>
-        <tag>trilead-api-1.0.8</tag>
+        <tag>${scmTag}</tag>
   </scm>
 
     <properties>
-      <revision>1.0.8</revision>
+      <revision>1.0.9</revision>
       <changelist>-SNAPSHOT</changelist>
       <jenkins.version>2.184</jenkins.version>
       <java.level>8</java.level>
