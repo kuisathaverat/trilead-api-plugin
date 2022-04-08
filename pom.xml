@@ -51,7 +51,7 @@
         <revision>1</revision>
         <changelist>999999-SNAPSHOT</changelist>
         <gitHubRepo>jenkinsci/trilead-api-plugin</gitHubRepo>
-        <jenkins.version>2.204</jenkins.version>
+        <jenkins.version>2.319</jenkins.version>
         <java.level>8</java.level>
     </properties>
 
@@ -73,8 +73,8 @@
       <dependencies>
         <dependency>
           <groupId>io.jenkins.tools.bom</groupId>
-          <artifactId>bom-2.204.x</artifactId>
-          <version>11</version>
+          <artifactId>bom-2.319.x</artifactId>
+          <version>1246.va_b_50630c1d19</version>
           <type>pom</type>
           <scope>import</scope>
         </dependency>
