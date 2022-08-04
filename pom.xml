@@ -51,7 +51,7 @@
         <revision>1</revision>
         <changelist>999999-SNAPSHOT</changelist>
         <gitHubRepo>jenkinsci/trilead-api-plugin</gitHubRepo>
-        <jenkins.version>2.346.2</jenkins.version>
+        <jenkins.version>2.361</jenkins.version>
     </properties>
 
     <repositories>
