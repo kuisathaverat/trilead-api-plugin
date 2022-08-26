@@ -48,10 +48,11 @@
   </scm>
 
     <properties>
-        <revision>1</revision>
+        <revision>2</revision>
         <changelist>999999-SNAPSHOT</changelist>
         <gitHubRepo>jenkinsci/trilead-api-plugin</gitHubRepo>
         <jenkins.version>2.361</jenkins.version>
+        <hpi.compatibleSinceVersion>2.0.0</hpi.compatibleSinceVersion>
     </properties>
 
     <repositories>
