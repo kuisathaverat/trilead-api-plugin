@@ -19,6 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: cat .github/workflows/jenkins-security-scan.yml
+        env: 
+          TEST: ${{ secrets.MAVEN_USERNAME }}
   security-scan:
     uses: jenkins-infra/jenkins-security-scan/.github/workflows/jenkins-security-scan.yaml@v2
     with:
